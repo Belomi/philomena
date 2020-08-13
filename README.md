@@ -11,6 +11,7 @@ On systems with `docker` and `docker-compose` installed, the process should be a
 
 ```
 docker-compose build
+docker-compose run app mix ecto.setup
 docker-compose up
 ```
 
